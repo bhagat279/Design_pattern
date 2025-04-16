@@ -1,0 +1,9 @@
+Factory(method) Design Pattern:
+
+1. When there is a Superclass and multiple subClasses implementing that superClass and we want to get Object of subClasses
+  based on input and requirement.
+  Then we create factory class which takes the responsibility of creating objects of subClasses based on input.
+
+2. Advantage:
+   1. Focus on creating Object for interface rather than implementation.
+   2. Loose coupling and more robost code
