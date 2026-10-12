@@ -14,11 +14,12 @@ public class Main {
 
        Director director = new Director();
        CarBuilder carBuilder = new CarBuilder();
-       director.buildBulero(carBuilder,"bulero");
-       director.buildMarshal(carBuilder,"marshal");
 
-        Car car1 = carBuilder.build();
-        System.out.println(car1);
+       director.buildBulero(carBuilder,"bulero");
+       Car car1 = carBuilder.build();
+
+       System.out.println(car1);
+
 
 
 
